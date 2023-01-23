@@ -6,7 +6,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif; 
 }
 h2 {
-    font-size: 6vw;
+    font-size: 5vw;
     font-family: 'Monospace';
 }
 h3 {
@@ -17,6 +17,11 @@ h3 {
     width: 10%;
     margin-left: 80%;
     margin-top: -80%;
+}
+.graphing{
+    margin-top: -5%;
+    height: 80%;
+    width: 80%;
 }
 .icon{
     height: 25px;
@@ -51,24 +56,24 @@ h3 {
   }
 
 @media only screen 
-and (min-width: 375px) 
-and (max-width: 667px)  {
+and (min-device-width: 375px) 
+and (max-device-width: 667px)  {
+    .wrapper {
+        grid-template-columns: 1fr;
+    } 
+}
+
+@media only screen 
+and (min-device-width: 360px) 
+and (max-device-width: 740px)  {
     .wrapper {
         grid-template-columns: 1fr;
     }
 }
 
 @media only screen 
-and (min-width: 360px) 
-and (max-width: 740px)  {
-    .wrapper {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media only screen 
-and (min-width: 280px) 
-and (max-width: 653px)  {
+and (min-device-width: 280px) 
+and (max-device-width: 653px)  {
     .wrapper {
         grid-template-columns: 1fr;
     }
