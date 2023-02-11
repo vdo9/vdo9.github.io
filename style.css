@@ -10,6 +10,7 @@ h2 {
     font-family: 'Monospace';
 }
 h3 {
+    margin-top: -2%;
     opacity: 0.3;
 }
 .profilepic{
@@ -22,6 +23,9 @@ h3 {
     margin-top: -5%;
     height: 80%;
     width: 80%;
+}
+.skin{
+    margin-top: 60;
 }
 .icon{
     height: 25px;
