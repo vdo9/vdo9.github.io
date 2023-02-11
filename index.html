@@ -13,6 +13,7 @@ EMAIL: dovh@uci.edu
    <!-- you would link to an external stylesheet here! -->
    <link rel="stylesheet" href="style.css" />
    <!-- you would also link to Bootstrap here! -->
+
   <title>Vickie Do</title>
 </head>
 
@@ -77,14 +78,90 @@ EMAIL: dovh@uci.edu
   <h3>Showcase</h3>
   <h2>C++ Graphing Calculator Built with SFML Multimedia Library</h2>
   <h3>Final Course Project in C++</h3>
-  <a href="https://github.com/vdo9/Graphing-Calculator-SFML" target="blank">
-  <img class="graphing" src="./images/graphing-calc-demo.gif" alt="graphing-calc-demo.gif">
-  </a>
-  <h2>SkinDeep - A Community-Driven Q&A Application for Skin Health</h2>
-  <h3>“Best Health Hack” @ UCI Hacks 2023</h3>
-  <a href="https://github.com/SkinQuest/SkinDeep" target="blank">
-    <img class="skin" src="./images/skindeepgif.gif" style="width:350px;height:auto;" alt="skin-deep.gif">
+  <div class="cplus">
+    <a href="https://github.com/vdo9/Graphing-Calculator-SFML" target="blank">
+    <img class="graphing" src="./images/graphing-calc-demo.gif" alt="graphing-calc-demo.gif">
     </a>
   </div>
+  <h2>SkinDeep : A Community-Driven Q&A Application for Skin Health</h2>
+  <h3>Winner of “Best Health Hack” at UCI Hacks 2023</h3>
+  <div class="float-container">
+    <div class="float-child1">
+      <a href="https://github.com/SkinQuest/SkinDeep" target="blank">
+        <img class="skin" src="./images/skindeepgif.gif" style="width:300px;height:auto;margin:10px; margin-left:12px" alt="skin-deep.gif">
+      </a>
+    </div>
+    
+    <div class="float-child2">
+
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 8</div>
+        <img src="./images/skindeep/about.PNG" style="width:45%; margin-left: 28%; margin-bottom: 50px;">
+        <div class="text">Why SkinDeep</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 8</div>
+        <img src="./images/skindeep/main.PNG" style="width:45%; margin-left: 28%; margin-bottom: 50px;">
+        <div class="text">Main Question Page Displaying Cards</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 8</div>
+        <img src="./images/skindeep/filter.PNG" style="width:45%; margin-left: 28%; margin-bottom: 50px;">
+        <div class="text">Filter Buttons Enabled Above</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 8</div>
+        <img src="./images/skindeep/question.PNG" style="width:45%; margin-left: 28%; margin-bottom: 50px;">
+        <div class="text">Inside Question Card</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 8</div>
+        <img src="./images/skindeep/askbutton.PNG" style="width:45%; margin-left: 28%; margin-bottom: 50px;">
+        <div class="text">Ask Button Enabled Below</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 8</div>
+        <img src="./images/skindeep/ask.PNG" style="width:45%; margin-left: 28%; margin-bottom: 50px;">
+        <div class="text">Ask Form</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 8</div>
+        <img src="./images/skindeep/comments.PNG" style="width:45%; margin-left: 28%; margin-bottom: 50px;">
+        <div class="text">Comments History</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">8 / 8</div>
+        <img src="./images/skindeep/profile.PNG" style="width:45%; margin-left: 28%; margin-bottom: 50px;">
+        <div class="text">Profile View</div>
+      </div>
+    
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    </div>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+  </div>
+
+  </div>
+  <!-- need to add this at the end for slideshow photo to default display -->
+  <script src="index.js"></script>  
+
 </body>
 </html>
