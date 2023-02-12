@@ -5,6 +5,20 @@ body {
     /* padding: 10px;  */
     font-family: 'Source Sans Pro', sans-serif; 
 }
+
+#content {
+    width: 800px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+#tokyo{
+    margin-left: 30%;
+    margin-top: 5%;
+}
 h2 {
     font-size: 5vw;
     font-family: 'Monospace';
@@ -229,3 +243,5 @@ and (max-device-width: 653px)  {
     padding: 20px;
     /* border: 2px solid black; */
 }  
+
+
