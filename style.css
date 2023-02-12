@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
 
 body {
-    margin: 10%;
+    margin: 8%;
     /* padding: 10px;  */
     font-family: 'Source Sans Pro', sans-serif; 
 }
@@ -28,10 +28,8 @@ h3 {
     opacity: 0.3;
 }
 .profilepic{
-    height: 10%;
-    width: 10%;
-    margin-left: 80%;
-    margin-top: -80%;
+    height: 145px;
+    width: 145px;
 }
 .graphing{
     margin-top: -5%;
@@ -244,4 +242,66 @@ and (max-device-width: 653px)  {
     /* border: 2px solid black; */
 }  
 
+.float-container1 {
+    padding: 20px;
+    overflow: hidden;
+}
 
+.float-child3 {
+    border: 1px solid gray;
+    width: 32%;
+    float: left;
+    padding: 10px;}
+
+.float-child4 {
+    width: 63%;
+    float: right;
+    padding: 20px;
+    margin-bottom: 90px;
+    margin-left:10px;
+    border: none;
+}
+
+.image-container {
+    /* float: lef; */
+}
+
+.text-container {
+float: right;
+width: 95%;
+padding-left: 2px;
+margin-top: -1px;
+}
+
+.intro-container {
+    overflow:hidden;
+    padding: 20px;
+}
+
+.intro-right {
+    float: right;
+    width: 35%;
+    border-radius: 20%;
+    margin-top: 10px;
+}
+
+.intro-left {
+    float: left;
+    width: 40%;
+}
+
+.profile-style{
+    margin-left: -60px;
+    margin-top: 20px;
+}
+
+.right-circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    border: 3px solid black;
+}
+
+.intro-line{
+    line-height: 25px;
+}
