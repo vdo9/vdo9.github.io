@@ -32,8 +32,8 @@ h3 {
     width: 25px;
 }
 .topic-icon{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     padding: 5px;
     vertical-align: middle;
 }
@@ -87,6 +87,7 @@ and (max-device-width: 653px)  {
 .topnav {
     background-color: white;
     overflow: hidden;
+    margin-top: -40px;
 }
 
 /* Style the links inside the navigation bar */
