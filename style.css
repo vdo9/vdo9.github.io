@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500&display=swap');
 
 body {
     margin: 8%;
     /* padding: 10px;  */
-    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Inter';
+    font-weight: 200; 
 }
 
 #content {
@@ -61,13 +62,18 @@ h3 {
     grid-template-columns: 2fr 2fr 2fr;
     grid-auto-flow: dense;
     padding: 0.5rem;
-    word-wrap: break-word
+    word-wrap: break-word;
+    margin-top: 20px;
 }
 
 /* https://www.w3schools.com/cssref/css3_pr_mediaquery.php */
 @media only screen and (max-width: 600px) {
     .wrapper {
         grid-template-columns: 1fr;
+    }
+    .intro-right, .intro-left {
+        width: 50%;
+        height: 50%;
     }
   }
 
@@ -77,6 +83,9 @@ and (max-device-width: 667px)  {
     .wrapper {
         grid-template-columns: 1fr;
     } 
+    .intro-right, .profilepic, .profile-style {
+        display: none;
+    }
 }
 
 @media only screen 
@@ -84,6 +93,9 @@ and (min-device-width: 360px)
 and (max-device-width: 740px)  {
     .wrapper {
         grid-template-columns: 1fr;
+    }
+    .intro-right, .profilepic, .profile-style {
+        display: none;
     }
 }
 
@@ -93,13 +105,17 @@ and (max-device-width: 653px)  {
     .wrapper {
         grid-template-columns: 1fr;
     }
+    .intro-right, .profilepic, .profile-style {
+        display: none;
+    }
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: white;
     overflow: hidden;
-    margin-top: -40px;
+    margin-top: -70px;
+    margin-bottom: 15px;
 }
 
 /* Style the links inside the navigation bar */
@@ -280,14 +296,68 @@ margin-top: -1px;
 
 .intro-right {
     float: right;
-    width: 35%;
+    width: 30%;
     border-radius: 20%;
-    margin-top: 10px;
+    margin-top: 38px;
 }
 
 .intro-left {
     float: left;
     width: 40%;
+}
+
+.intro-box{
+    position: relative; 
+    border-width: 2px; 
+    border-style: solid; 
+    padding: 20px; 
+    width: 610px; 
+    height: 320px; 
+    border-radius: 30px;
+}
+
+.introbox-inner{
+    border-bottom: 2px solid black;
+    width: 609px; 
+    height: 5px; 
+    margin-left: -20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.red-circle{
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    background: #EAC7C7;
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+    margin-top: -23px;
+}
+.orange-circle{
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    background: #FFD4B2; 
+    display:inline-block;
+    vertical-align: top;
+    margin-top: -23px;
+}
+.green-circle{
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    background: #E8F3D6;
+    display:inline-block;
+    vertical-align: top;
+    margin-top: -23px;
 }
 
 .profile-style{
@@ -304,4 +374,6 @@ margin-top: -1px;
 
 .intro-line{
     line-height: 25px;
+    margin-top: -2px;
+    margin: 10px;
 }
